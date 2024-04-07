@@ -1,0 +1,20 @@
+version: "3"
+services:
+
+  fv-backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      fv-db:
+        condition: service_healthy
+
+  fv-db:
+    image: postgres:16.2-alpine
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: "my_example"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready"]
