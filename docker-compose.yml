@@ -10,10 +10,8 @@ services:
         condition: service_healthy
 
   fv-db:
-    image: postgres:16.2-alpine
+    build: ./db
     restart: always
-    ports:
-      - "5432:5432"
     environment:
       POSTGRES_PASSWORD: "my_example"
     healthcheck:
