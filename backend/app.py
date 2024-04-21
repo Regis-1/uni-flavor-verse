@@ -20,16 +20,8 @@ def home():
 
 @app.route("/make_table")
 def make_table():
-    cur.execute("""create table my_table(
-id integer unique not null,
-note varchar(64) not null);""")
-
-    cur.execute("""insert into my_table(id, note) values
-(1, 'hello there'), (2, 'hello world');""")
-
-    conn.commit()
     return jsonify({
-        "Message": "table was successfully made"
+        "Message": "ta funkcjonalnosc juz nie jest obslugiwana"
         })
 
 

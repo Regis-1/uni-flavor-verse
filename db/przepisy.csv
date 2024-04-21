@@ -2,7 +2,7 @@ id,nazwa,opis,poziom_trudnosci,procedura_wykonania,kalorycznosc
 1,Spaghetti Bolognese,"Klasyczne danie włoskie z makaronem i sosem mięsnym.",3,"1. Ugotuj makaron al dente. 2. Przygotuj sos: podsmaż mięso mielone z cebulą, czosnkiem i pomidorami. 3. Dopraw solą, pieprzem i przyprawami. 4. Podawaj na ugotowanym makaronie.",600
 2,Kurczak z warzywami,"Pyszne danie z pieczonego kurczaka i świeżymi warzywami.",2,"1. Przygotuj kurczaka i warzywa. 2. Włóż do piekarnika na 30 minut. 3. Gotowe do podania.",450
 3,Sałatka grecka,"Tradycyjna grecka sałatka z pomidorami, ogórkiem, oliwkami i serem feta.",1,"1. Pokrój warzywa i ser feta. 2. Wymieszaj składniki. 3. Skrop oliwą z oliwek i dopraw solą i pieprzem.",300
-4,Krem z dyni,"Delikatny kremowa zupa z dyni, idealna na chłodne dni.",2,"1. Obierz i pokrój dynię. 2. Gotuj w bulionie warzywnym. 3. Zmiksuj na gładki krem. 4. Podawaj z grzankami.",250
+4,Krem z dyni,"Delikatna kremowa zupa z dyni, idealna na chłodne dni.",2,"1. Obierz i pokrój dynię. 2. Gotuj w bulionie warzywnym. 3. Zmiksuj na gładki krem. 4. Podawaj z grzankami.",250
 5,Kotlet schabowy,"Polski klasyk - kotlet schabowy z ziemniakami i surówką.",3,"1. Rozbij kotlety schabowe. 2. Panieruj w jajku i bułce tartej. 3. Smaż na złoty kolor. 4. Podawaj z ziemniakami i surówką.",700
 6,Tarta z owocami,"Deser z kruchego ciasta i sezonowych owoców.",2,"1. Przygotuj ciasto i rozwałkuj je. 2. Ułóż owoce na cieście. 3. Posyp cukrem. 4. Piecz w piekarniku. 5. Podawaj na zimno.",400
 7,Risotto z grzybami,"Kremowe risotto z dodatkiem aromatycznych grzybów.",2,"1. Podsmaż cebulę i czosnek. 2. Dodaj ryż i gotuj na małym ogniu, dodając bulion warzywny stopniowo. 3. Na koniec dodaj pokrojone grzyby i parmezan.",500
