@@ -1,31 +1,31 @@
-id,nazwa,opis,poziom_trudnosci,procedura_wykonania,kalorycznosc
-1,Spaghetti Bolognese,"Klasyczne danie włoskie z makaronem i sosem mięsnym.",3,"1. Ugotuj makaron al dente. 2. Przygotuj sos: podsmaż mięso mielone z cebulą, czosnkiem i pomidorami. 3. Dopraw solą, pieprzem i przyprawami. 4. Podawaj na ugotowanym makaronie.",600
-2,Kurczak z warzywami,"Pyszne danie z pieczonego kurczaka i świeżymi warzywami.",2,"1. Przygotuj kurczaka i warzywa. 2. Włóż do piekarnika na 30 minut. 3. Gotowe do podania.",450
-3,Sałatka grecka,"Tradycyjna grecka sałatka z pomidorami, ogórkiem, oliwkami i serem feta.",1,"1. Pokrój warzywa i ser feta. 2. Wymieszaj składniki. 3. Skrop oliwą z oliwek i dopraw solą i pieprzem.",300
-4,Krem z dyni,"Delikatna kremowa zupa z dyni, idealna na chłodne dni.",2,"1. Obierz i pokrój dynię. 2. Gotuj w bulionie warzywnym. 3. Zmiksuj na gładki krem. 4. Podawaj z grzankami.",250
-5,Kotlet schabowy,"Polski klasyk - kotlet schabowy z ziemniakami i surówką.",3,"1. Rozbij kotlety schabowe. 2. Panieruj w jajku i bułce tartej. 3. Smaż na złoty kolor. 4. Podawaj z ziemniakami i surówką.",700
-6,Tarta z owocami,"Deser z kruchego ciasta i sezonowych owoców.",2,"1. Przygotuj ciasto i rozwałkuj je. 2. Ułóż owoce na cieście. 3. Posyp cukrem. 4. Piecz w piekarniku. 5. Podawaj na zimno.",400
-7,Risotto z grzybami,"Kremowe risotto z dodatkiem aromatycznych grzybów.",2,"1. Podsmaż cebulę i czosnek. 2. Dodaj ryż i gotuj na małym ogniu, dodając bulion warzywny stopniowo. 3. Na koniec dodaj pokrojone grzyby i parmezan.",500
-8,Krewetki po tajsku,"Ostry i aromatyczny obiad z krewetkami i warzywami.",3,"1. Podsmaż cebulę, czosnek, chili i imbiry. 2. Dodaj krewetki i warzywa. 3. Dopraw sosem sojowym i limonką. 4. Podawaj z ryżem.",350
-9,Pieczone ziemniaki,"Prosty przepis na chrupiące pieczone ziemniaki.",1,"1. Pokrój ziemniaki w ósemki. 2. Polej oliwą z oliwek i dopraw solą oraz pieprzem. 3. Piecz w piekarniku do zrumienienia.",200
-10,Naleśniki z serem,"Polskie naleśniki z serem, idealne na słodko lub na słono.",2,"1. Przygotuj ciasto na naleśniki. 2. Smaż cienkie naleśniki. 3. Nadziewaj serem twarogowym lub innymi dodatkami. 4. Składaj i podawaj z cukrem pudrem lub sosem owocowym.",300
-11,Zupa pomidorowa,"Klasyczna zupa pomidorowa z ryżem i śmietaną.",1,"1. Podsmaż cebulę i czosnek. 2. Dodaj pomidory i gotuj. 3. Dodaj ugotowany ryż. 4. Dopraw i dodaj śmietanę przed podaniem.",250
-12,Placki ziemniaczane,"Tradycyjne placki ziemniaczane, idealne jako dodatek do obiadu.",2,"1. Zetrzyj ziemniaki i cebulę. 2. Wyciśnij nadmiar płynu. 3. Dodaj jajko i mąkę. 4. Smaż na złoty kolor.",400
-13,Kluski śląskie,"Polskie kluski śląskie z sosem pieczeniowym.",3,"1. Ugotuj kluski z mąki ziemniaczanej. 2. Podawaj z sosem z pieczeniowej.",350
-14,Kotleciki z indyka,"Lekkie kotleciki z mięsa indyczego, idealne dla dzieci.",2,"1. Rozbij mięso z indyka. 2. Panieruj w jajku i bułce tartej. 3. Smaż na złoty kolor. 4. Podawaj z warzywami.",300
-15,Sałatka Cezar,"Klasyczna sałatka Cezar z kurczakiem i grzankami.",2,"1. Przygotuj sałatę, kurczaka i grzanki. 2. Wymieszaj z sosem Cezar. 3. Posyp startym parmezanem.",400
-16,Sernik na zimno,"Delikatny sernik na zimno z galaretką owocową.",2,"1. Przygotuj ciasto na spód. 2. Zmiksuj ser twarogowy z jogurtem i cukrem. 3. Wylej na ciasto i schłódź. 4. Przygotuj galaretkę i polej po serniku.",350
-17,Kaczka po pekińsku,"Klasyczna kaczka po chińsku, podawana z warzywami i sosem hoisin.",3,"1. Wypiecz kaczkę w piekarniku z sosem hoisin. 2. Podawaj z warzywami i ryżem.",600
-18,Tortilla z kurczakiem,"Meksykańska tortilla z kurczakiem i warzywami.",2,"1. Smaż kurczaka z przyprawami. 2. Dodaj warzywa i smaż. 3. Nałóż na placki tortilli i podawaj.",450
-19,Placek po wegiersku,"Tradycyjny węgierski placek z mięsem i ziemniakami.",3,"1. Podsmaż mięso z cebulą. 2. Dodaj pokrojone ziemniaki i gotuj. 3. Podawaj gorące.",500
-20,Lazania bolognese,"Warstwowa zapiekanka z makaronem, sosem mięsnym i serem.",3,"1. Warstwuj makaron, sos i ser. 2. Zapiekaj w piekarniku. 3. Podawaj gorące.",700
-21,Schabowy po warszawsku,"Tradycyjny schabowy z kapustą zasmażaną.",2,"1. Smaż schabowy na złoty kolor. 2. Podawaj z duszoną kapustą.",550
-22,Koktajl owocowy,"Świeży koktajl z sezonowych owoców.",1,"1. Pokrój owoce. 2. Zmiksuj razem z jogurtem lub sokiem owocowym.",150
-23,Tarta szpinakowa,"Tarta z nadzieniem ze szpinaku i sera mozzarella.",2,"1. Przygotuj ciasto i rozwałkuj je. 2. Nałóż nadzienie ze szpinaku i sera. 3. Piecz w piekarniku. 4. Podawaj na ciepło.",400
-24,Kebab domowy,"Domowy kebab z mięsa mielonego i warzywami.",2,"1. Przygotuj mięso mielone z przyprawami. 2. Uformuj kotleciki i smaż. 3. Podawaj z pieczywem i warzywami.",500
-25,Pierogi ruskie,"Klasyczne pierogi ruskie z nadzieniem z ziemniaków i sera.",3,"1. Przygotuj ciasto na pierogi. 2. Nadziewaj farszem z ziemniaków i sera. 3. Gotuj w osolonej wodzie. 4. Podawaj z cebulką i śmietaną.",350
-26,Ratatouille,"Klasyczne francuskie danie z warzyw gotowanych na wolnym ogniu.",2,"1. Pokrój warzywa i podsmaż. 2. Gotuj na małym ogniu. 3. Dopraw ziołami.",250
-27,Kotlety jajeczne,"Delikatne kotlety z jajek, idealne dla dzieci.",1,"1. Ugotuj jajka na twardo. 2. Rozgnieć je z majonezem i bułką tarta. 3. Smaż na złoty kolor.",200
-28,Zupa krem z brokułów,"Pyszna kremowa zupa z brokułów.",1,"1. Obierz i pokrój brokuły. 2. Gotuj w bulionie warzywnym. 3. Zmiksuj na gładki krem. 4. Podawaj z grzankami.",300
-29,Placek po węgiersku,"Tradycyjny węgierski placek z mięsem, papryką i ziemniakami.",3,"1. Podsmaż mięso z cebulą i papryką. 2. Dodaj pokrojone ziemniaki i gotuj. 3. Podawaj gorące.",500
-30,Sushi California,"Klasyczne sushi z krabem, awokado i ogórkiem.",3,"1. Przygotuj ryż sushi. 2. Nałóż na nori ryż i farsz z kraba, awokado i ogórka. 3. Zwijaj i kroj na kawałki. 4. Podawaj z sosem sojowym i wasabi.",400
+autor,nazwa,opis,poziom_trudnosci,procedura_wykonania,kalorycznosc
+2,Spaghetti Bolognese,"Klasyczne danie włoskie z makaronem i sosem mięsnym.",3,"1. Ugotuj makaron al dente. 2. Przygotuj sos: podsmaż mięso mielone z cebulą, czosnkiem i pomidorami. 3. Dopraw solą, pieprzem i przyprawami. 4. Podawaj na ugotowanym makaronie.",600
+1,Kurczak z warzywami,"Pyszne danie z pieczonego kurczaka i świeżymi warzywami.",2,"1. Przygotuj kurczaka i warzywa. 2. Włóż do piekarnika na 30 minut. 3. Gotowe do podania.",450
+2,Sałatka grecka,"Tradycyjna grecka sałatka z pomidorami, ogórkiem, oliwkami i serem feta.",1,"1. Pokrój warzywa i ser feta. 2. Wymieszaj składniki. 3. Skrop oliwą z oliwek i dopraw solą i pieprzem.",300
+1,Krem z dyni,"Delikatna kremowa zupa z dyni, idealna na chłodne dni.",2,"1. Obierz i pokrój dynię. 2. Gotuj w bulionie warzywnym. 3. Zmiksuj na gładki krem. 4. Podawaj z grzankami.",250
+1,Kotlet schabowy,"Polski klasyk - kotlet schabowy z ziemniakami i surówką.",3,"1. Rozbij kotlety schabowe. 2. Panieruj w jajku i bułce tartej. 3. Smaż na złoty kolor. 4. Podawaj z ziemniakami i surówką.",700
+1,Tarta z owocami,"Deser z kruchego ciasta i sezonowych owoców.",2,"1. Przygotuj ciasto i rozwałkuj je. 2. Ułóż owoce na cieście. 3. Posyp cukrem. 4. Piecz w piekarniku. 5. Podawaj na zimno.",400
+2,Risotto z grzybami,"Kremowe risotto z dodatkiem aromatycznych grzybów.",2,"1. Podsmaż cebulę i czosnek. 2. Dodaj ryż i gotuj na małym ogniu, dodając bulion warzywny stopniowo. 3. Na koniec dodaj pokrojone grzyby i parmezan.",500
+4,Krewetki po tajsku,"Ostry i aromatyczny obiad z krewetkami i warzywami.",3,"1. Podsmaż cebulę, czosnek, chili i imbiry. 2. Dodaj krewetki i warzywa. 3. Dopraw sosem sojowym i limonką. 4. Podawaj z ryżem.",350
+2,Pieczone ziemniaki,"Prosty przepis na chrupiące pieczone ziemniaki.",1,"1. Pokrój ziemniaki w ósemki. 2. Polej oliwą z oliwek i dopraw solą oraz pieprzem. 3. Piecz w piekarniku do zrumienienia.",200
+2,Naleśniki z serem,"Polskie naleśniki z serem, idealne na słodko lub na słono.",2,"1. Przygotuj ciasto na naleśniki. 2. Smaż cienkie naleśniki. 3. Nadziewaj serem twarogowym lub innymi dodatkami. 4. Składaj i podawaj z cukrem pudrem lub sosem owocowym.",300
+2,Zupa pomidorowa,"Klasyczna zupa pomidorowa z ryżem i śmietaną.",1,"1. Podsmaż cebulę i czosnek. 2. Dodaj pomidory i gotuj. 3. Dodaj ugotowany ryż. 4. Dopraw i dodaj śmietanę przed podaniem.",250
+1,Placki ziemniaczane,"Tradycyjne placki ziemniaczane, idealne jako dodatek do obiadu.",2,"1. Zetrzyj ziemniaki i cebulę. 2. Wyciśnij nadmiar płynu. 3. Dodaj jajko i mąkę. 4. Smaż na złoty kolor.",400
+1,Kluski śląskie,"Polskie kluski śląskie z sosem pieczeniowym.",3,"1. Ugotuj kluski z mąki ziemniaczanej. 2. Podawaj z sosem z pieczeniowej.",350
+4,Kotleciki z indyka,"Lekkie kotleciki z mięsa indyczego, idealne dla dzieci.",2,"1. Rozbij mięso z indyka. 2. Panieruj w jajku i bułce tartej. 3. Smaż na złoty kolor. 4. Podawaj z warzywami.",300
+3,Sałatka Cezar,"Klasyczna sałatka Cezar z kurczakiem i grzankami.",2,"1. Przygotuj sałatę, kurczaka i grzanki. 2. Wymieszaj z sosem Cezar. 3. Posyp startym parmezanem.",400
+4,Sernik na zimno,"Delikatny sernik na zimno z galaretką owocową.",2,"1. Przygotuj ciasto na spód. 2. Zmiksuj ser twarogowy z jogurtem i cukrem. 3. Wylej na ciasto i schłódź. 4. Przygotuj galaretkę i polej po serniku.",350
+3,Kaczka po pekińsku,"Klasyczna kaczka po chińsku, podawana z warzywami i sosem hoisin.",3,"1. Wypiecz kaczkę w piekarniku z sosem hoisin. 2. Podawaj z warzywami i ryżem.",600
+5,Tortilla z kurczakiem,"Meksykańska tortilla z kurczakiem i warzywami.",2,"1. Smaż kurczaka z przyprawami. 2. Dodaj warzywa i smaż. 3. Nałóż na placki tortilli i podawaj.",450
+3,Placek po wegiersku,"Tradycyjny węgierski placek z mięsem i ziemniakami.",3,"1. Podsmaż mięso z cebulą. 2. Dodaj pokrojone ziemniaki i gotuj. 3. Podawaj gorące.",500
+5,Lazania bolognese,"Warstwowa zapiekanka z makaronem, sosem mięsnym i serem.",3,"1. Warstwuj makaron, sos i ser. 2. Zapiekaj w piekarniku. 3. Podawaj gorące.",700
+5,Schabowy po warszawsku,"Tradycyjny schabowy z kapustą zasmażaną.",2,"1. Smaż schabowy na złoty kolor. 2. Podawaj z duszoną kapustą.",550
+5,Koktajl owocowy,"Świeży koktajl z sezonowych owoców.",1,"1. Pokrój owoce. 2. Zmiksuj razem z jogurtem lub sokiem owocowym.",150
+5,Tarta szpinakowa,"Tarta z nadzieniem ze szpinaku i sera mozzarella.",2,"1. Przygotuj ciasto i rozwałkuj je. 2. Nałóż nadzienie ze szpinaku i sera. 3. Piecz w piekarniku. 4. Podawaj na ciepło.",400
+4,Kebab domowy,"Domowy kebab z mięsa mielonego i warzywami.",2,"1. Przygotuj mięso mielone z przyprawami. 2. Uformuj kotleciki i smaż. 3. Podawaj z pieczywem i warzywami.",500
+4,Pierogi ruskie,"Klasyczne pierogi ruskie z nadzieniem z ziemniaków i sera.",3,"1. Przygotuj ciasto na pierogi. 2. Nadziewaj farszem z ziemniaków i sera. 3. Gotuj w osolonej wodzie. 4. Podawaj z cebulką i śmietaną.",350
+5,Ratatouille,"Klasyczne francuskie danie z warzyw gotowanych na wolnym ogniu.",2,"1. Pokrój warzywa i podsmaż. 2. Gotuj na małym ogniu. 3. Dopraw ziołami.",250
+5,Kotlety jajeczne,"Delikatne kotlety z jajek, idealne dla dzieci.",1,"1. Ugotuj jajka na twardo. 2. Rozgnieć je z majonezem i bułką tarta. 3. Smaż na złoty kolor.",200
+3,Zupa krem z brokułów,"Pyszna kremowa zupa z brokułów.",1,"1. Obierz i pokrój brokuły. 2. Gotuj w bulionie warzywnym. 3. Zmiksuj na gładki krem. 4. Podawaj z grzankami.",300
+3,Placek po węgiersku,"Tradycyjny węgierski placek z mięsem, papryką i ziemniakami.",3,"1. Podsmaż mięso z cebulą i papryką. 2. Dodaj pokrojone ziemniaki i gotuj. 3. Podawaj gorące.",500
+3,Sushi California,"Klasyczne sushi z krabem, awokado i ogórkiem.",3,"1. Przygotuj ryż sushi. 2. Nałóż na nori ryż i farsz z kraba, awokado i ogórka. 3. Zwijaj i kroj na kawałki. 4. Podawaj z sosem sojowym i wasabi.",400
