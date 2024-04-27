@@ -33,7 +33,7 @@ DatabaseColumns = {
     }
 }
 
-
+# semi-local
 def extract_table_fields(json_data, tablename, create=True):
     result = {}
     for k, v in DatabaseColumns[tablename].items():
@@ -101,6 +101,19 @@ def read_columns_from_table(table, columns, filter=None, select_one=False):
 
     cur.execute(query)
     result = cur.fetchone() if select_one else cur.fetchall()
+    if not result:
+        return None
+
+    if select_one:
+        result = dict(zip(columns, result))
+    else:
+        tmp = []
+        for r in result:
+            tmp.append({})
+            for i, c in enumerate(columns):
+                tmp[-1][c] = r[i]
+        result = tmp
+
     return result
 
 

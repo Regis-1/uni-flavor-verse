@@ -5,16 +5,17 @@ from . import bp_uzytkownicy
 # get all uzytkownicy from the database
 @bp_uzytkownicy.route("/api/uzytkownicy/", methods=['GET'])
 def fetch_all_uzytkownicy():
-    uzytkownicy = read_columns_from_table('Uzytkownik',['id','nazwa_uzytkownika'])
-    return jsonify(uzytkownicy)
+    results = read_columns_from_table('Uzytkownik',['id','nazwa_uzytkownika'])
+    return jsonify(results)
 
 
 # get specific uzytkownik from the database
 @bp_uzytkownicy.route("/api/uzytkownicy/<int:id>", methods=['GET'])
 def fetch_uzytkownik_with_id(id):
-    uzytkownik = read_columns_from_table('Uzytkownik', ['*'],
+    columns = ['id', 'nazwa_uzytkownika', 'haslo']
+    results = read_columns_from_table('Uzytkownik', columns,
         f'id = {id}', True)
-    return jsonify(uzytkownik)
+    return jsonify(results)
 
 
 # create new uzytkownik via the POST HTTP method

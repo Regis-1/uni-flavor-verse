@@ -5,16 +5,17 @@ from . import bp_skladniki
 # get all skladniki from the database
 @bp_skladniki.route("/api/skladniki/", methods=['GET'])
 def fetch_all_skladniki():
-    skladniki = read_columns_from_table('Skladnik',['id','nazwa'])
-    return jsonify(skladniki)
+    results = read_columns_from_table('Skladnik',['id','nazwa'])
+    return jsonify(results)
 
 
 # get specific skladnik from the database
 @bp_skladniki.route("/api/skladniki/<int:id>", methods=['GET'])
 def fetch_skladnik_with_id(id):
-    skladnik = read_columns_from_table('Skladnik', ['*'],
+    columns = ['id','nazwa']
+    results = read_columns_from_table('Skladnik', columns,
         f'id = {id}', True)
-    return jsonify(skladnik)
+    return jsonify(results)
 
 
 # create new skladnik via the POST HTTP method
