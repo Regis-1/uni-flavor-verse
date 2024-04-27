@@ -29,9 +29,10 @@ def create_new_przepis():
             "Message": "Zły rodzaj żądania. Wymagany jest typ application/json."
         })
     else:
-        message = create_from_json(request.get_json(), 'Przepis')
+        result = create_from_json(request.get_json(), 'Przepis')
         return jsonify({
-            "Message": message
+            "Message": result[0],
+            "ID": result[1]
         })
 
 

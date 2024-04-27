@@ -26,9 +26,10 @@ def create_new_uzytkownik():
             "Message": "Zły rodzaj żądania. Wymagany jest typ application/json."
         })
     else:
-        message = create_from_json(request.get_json(), 'Uzytkownik')
+        result = create_from_json(request.get_json(), 'Uzytkownik')
         return jsonify({
-            "Message": message
+            "Message": result[0],
+            "ID": result[1]
         })
 
 

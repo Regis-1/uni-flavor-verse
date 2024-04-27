@@ -26,9 +26,10 @@ def create_new_skladnik():
             "Message": "Zły rodzaj żądania. Wymagany jest typ application/json."
         })
     else:
-        message = create_from_json(request.get_json(), 'Skladnik')
+        result = create_from_json(request.get_json(), 'Skladnik')
         return jsonify({
-            "Message": message
+            "Message": result[0],
+            "ID": result[1]
         })
 
 

@@ -70,8 +70,10 @@ def create_from_json(json_data, tablename):
     query = headers + values
     
     cur.execute(query)
+    cur.execute('SELECT LASTVAL()')
+    result_id = cur.fetchone()[0]
     conn.commit()
-    return f"{tablename} został poprawnie dodany."
+    return (f"{tablename} został poprawnie dodany z id={result_id}.", result_id)
 
 
 def update_from_json(json_data, tablename, condition):
