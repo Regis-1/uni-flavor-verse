@@ -13,7 +13,8 @@ create table Przepis(
     opis varchar(1024),
     poziom_trudnosci integer not null,
     procedura_wykonania varchar(1024) not null,
-    kalorycznosc integer
+    kalorycznosc integer,
+    obraz text
 );
 
 alter table Przepis add constraint autor_fk
@@ -43,5 +44,5 @@ alter table Przepis_skladniki add constraint skladnik_fk
 -- LOADING DATA
 copy Uzytkownik(nazwa_uzytkownika, haslo) from '/db_data/uzytkownicy.csv' with (format CSV, delimiter ',', quote '"', header true);
 copy Skladnik(nazwa) from '/db_data/skladniki.csv' with (format CSV, delimiter ',', quote '"', header true);
-copy Przepis(autor,nazwa,opis,poziom_trudnosci,procedura_wykonania,kalorycznosc) from '/db_data/przepisy.csv' with (format CSV, delimiter ',', quote '"', header true);
+copy Przepis(autor,nazwa,opis,poziom_trudnosci,procedura_wykonania,kalorycznosc,obraz) from '/db_data/przepisy.csv' with (format CSV, delimiter ',', quote '"', header true);
 copy Przepis_skladniki(przepis,skladnik,ilosc,miara) from '/db_data/przepis_skladniki.csv' with (format CSV, delimiter ',', quote '"', header true);

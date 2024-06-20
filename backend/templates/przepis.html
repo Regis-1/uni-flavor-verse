@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+
+<div class="container">
+    <form method="post">
+        <div class="actions">
+            <div class="actions-left-block">
+                <a class="button" href="{{ url_for('przepisy.fetch_all_przepisy')}}">POWRÓT</a>
+            </div>
+            <button type="submit" class="button-delete" onclick="return confirm('Jesteś pewny?')">USUŃ</button>
+            <a class="button" href="{{ url_for('przepisy.update_selected_przepis', id=przepis.id)}}">EDYTUJ</a>
+        </div>
+    </form>
+
+    <div class="details-container">
+        <div class="left-side">
+            <h1>{{przepis.nazwa}}</h1>
+            <p>
+                {{przepis.opis}}
+            </p>
+            <img src="{{przepis.obraz}}" alt="{{przepis.nazwa}}"/>
+            <p>
+                {{przepis.procedura_wykonania}}
+            </p>
+        </div>
+        <div class="right-side">
+            <div class="card">
+                <p>
+                    Kalorycznosc : {{przepis.kalorycznosc}}
+                </p>
+                <p>
+                    Poziom Trudnosci : {{przepis.poziom_trudnosci}}
+                </p>
+            </div>
+            <div class="card">
+                {% if przepis.skladniki %}
+                <h2>Skladniki</h2>
+                <table>
+                    {% for skladnik in przepis.skladniki %}
+                    <tr>
+                        <td>{{skladnik.nazwa}}</td>
+                        <td> - {{skladnik.ilosc}} {{skladnik.miara}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

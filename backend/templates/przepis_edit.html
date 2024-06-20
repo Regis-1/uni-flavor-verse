@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+    <div class="container">
+        <form action="{{ url_for('przepisy.update_selected_przepis', id=przepis.id )}}" method="post"> 
+            <div class="details-container">
+                <div class="left-side">
+                    <lable for="nazwa">
+                        Nazwa:
+                        <input value="{{przepis.nazwa}}" id="nazwa" name="nazwa"/>
+                    </lable>
+                    <lable for="opis">
+                        Opis:
+                    </lable>
+                    <textarea id="opis" rows="5" cols="10" name="opis">{{przepis.opis}}</textarea>
+                    <lable for="obraz">
+                        Obraz:
+                        <input value="{{przepis.obraz}}" id="obraz" name="obraz"/>
+                    </lable>
+                    <lable for="procedura_wykonania">
+                        Procedura Wykonania:
+                    </lable>
+                    <textarea id="procedura_wykonania" rows="5" cols="10" name="procedura_wykonania">{{przepis.procedura_wykonania}}</textarea>
+                    <lable for="kalorycznosc">
+                        Kalorycznosc:
+                        <input value="{{przepis.kalorycznosc}}" id="kalorycznosc" name="kalorycznosc" type="number"/>
+                    </lable>
+                    <lable for="poziom_trudnosci">
+                        Poziom Trudnosci:
+                        <input value="{{przepis.poziom_trudnosci}}" id="poziom_trudnosci" name="poziom_trudnosci" type="number"/>
+                    </lable>
+                    <div class="actions">
+                        <a class="button" href="{{ url_for('przepisy.fetch_przepis_with_id', id=przepis.id )}}">POWRÓT</a>
+                        <button type="submit" class="save-button button">Zapisz</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    background: #f4f4f1;
+    padding: 20px 0 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 80px;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.list img {
+    width: 200px;
+    max-height: 200px;
+}
+
+.item a {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.details-container .left-side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-side img {
+    max-width: 500px;
+}
+
+.details-container .right-side {
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e3e1e1;
+    background: #c5c5e8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+button.save-button {
+    max-width: 80px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.actions .actions-left-block {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: blue;
+    min-width: 80px;
+    text-align: center;
+}
+
+a.button {
+    max-height: 18px;
+}
+
+.button-delete {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: red;
+    min-width: 50px;
+}
+
+.actions-with-header {
+    display: flex;
+    min-width: 300px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
