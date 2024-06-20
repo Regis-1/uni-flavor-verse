@@ -6,11 +6,9 @@ app.json.ensure_ascii = False
 
 # importing blueprints
 from routes.przepisy import bp_przepisy
-from routes.uzytkownicy import bp_uzytkownicy
 from routes.skladniki import bp_skladniki
 
 app.register_blueprint(bp_przepisy)
-app.register_blueprint(bp_uzytkownicy)
 app.register_blueprint(bp_skladniki)
 
 @app.route("/")

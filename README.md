@@ -21,8 +21,6 @@ sudo docker-compose up
 /api/przepisy
 /api/przepisy/<id>
 /api/przepisy/skladniki/<id>
-/api/uzytkownicy
-/api/uzytkownicy/<id>
 /api/skladniki
 /api/skladniki/<id>
 ```
@@ -30,7 +28,6 @@ sudo docker-compose up
 ```html
 /api/przepisy/<id>
 /api/przepisy/skladniki/<id>
-/api/uzytkownicy/<id>
 /api/skladniki/<id>
 ```
 When creating new record via *POST* method, the request needs to have ```Content-type: application/json``` header and the JSON data in the body. New record data have to be in dictionary format with ```"field_name": "value"```.
@@ -38,7 +35,6 @@ Only adding records via ```/api/przepisy/skladniki/<id>``` can use array/list of
 #### Updating existing records (*PUT*):
 ```html
 /api/przepisy<id>
-/api/uzytkownicy/<id>
 /api/skladniki/<id>
 ```
 The data needs to be send in similar way as mentioned in previous section. When updating the record, the data dictionary can have only the changed values, e.g. when changing only *nazwa* field, the body's data should look like this:
@@ -48,6 +44,5 @@ The data needs to be send in similar way as mentioned in previous section. When 
 #### Deleting existing records (*DELETE*):
 ```html
 /api/przepisy/<id>
-/api/uzytkownicy/<id>
 /api/skladniki/<id>
 ```
